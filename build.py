@@ -16,21 +16,21 @@ def page(fn,title,desc,main):
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header><div class="wrap nav"><a class="brand" href="index.html"><img src="logo.svg" alt="" width="40" height="40">CKardinal LLC</a><nav aria-label="Main"><ul>{nav}</ul></nav></div></header>
+<header><div class="wrap nav"><a class="brand" href="index.html"><img src="logo.svg" alt="" width="40" height="40">CKardinal Solutions, LLC</a><nav aria-label="Main"><ul>{nav}</ul></nav></div></header>
 <main id="main">
 {main}
 </main>
-<footer><div class="wrap foot"><p>&copy; 2026 CKardinal LLC. All rights reserved.</p><ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms</a></li><li><a href="contact.html">Contact</a></li></ul></div></footer>
+<footer><div class="wrap foot"><p>&copy; 2026 CKardinal Solutions, LLC. All rights reserved.</p><ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms</a></li><li><a href="contact.html">Contact</a></li></ul></div></footer>
 </body>
 </html>
 '''
 EMAIL='<a href="mailto:carlos.matos@ckardinal.com">carlos.matos@ckardinal.com</a>'
 home=f'''<section class="hero"><div class="wrap hero-grid"><div>
-<span class="eyebrow">CKardinal LLC</span>
+<span class="eyebrow">CKardinal Solutions, LLC</span>
 <h1>Practical solutions for everyday business.</h1>
-<p class="lead">CKardinal LLC is a general-purpose business company. We take on well-defined work, plan it clearly and deliver it with care.</p>
+<p class="lead">CKardinal Solutions, LLC is a general-purpose business company. We take on well-defined work, plan it clearly and deliver it with care.</p>
 <a class="btn" href="contact.html">Get in touch</a>
-</div><div class="crest-wrap"><img class="crest" src="crest.png" alt="CKardinal LLC crest" width="534" height="720"></div>
+</div><div class="crest-wrap"><img class="crest" src="crest.png" alt="CKardinal Solutions, LLC crest" width="534" height="720"></div>
 </div></section>
 <section class="soft"><div class="wrap">
 <div class="head"><span class="eyebrow">What we do</span><h2>Services and capabilities</h2><p>Our work spans a few core areas, scoped to fit each engagement.</p></div>
@@ -48,8 +48,8 @@ home=f'''<section class="hero"><div class="wrap hero-grid"><div>
 <a class="btn btn-dark" href="contact.html">Contact us</a>
 </div></section>'''
 about=f'''<div class="page"><div class="wrap prose">
-<span class="eyebrow">About</span><h1>About CKardinal LLC</h1>
-<p class="lead">CKardinal LLC is a limited liability company founded and led by Carlos Matos.</p>
+<span class="eyebrow">About</span><h1>About CKardinal Solutions, LLC</h1>
+<p class="lead">CKardinal Solutions, LLC is a limited liability company founded and led by Carlos Matos.</p>
 <h2>What we do</h2>
 <p>CKardinal operates as a general-purpose business. Our work includes business services, consulting, and the development and publishing of software and digital products.</p>
 <h2>Our approach</h2>
@@ -65,7 +65,7 @@ contact=f'''<div class="page"><div class="wrap prose">
 privacy=f'''<div class="page"><div class="wrap prose">
 <span class="eyebrow">Legal</span><h1>Privacy Policy</h1>
 <p class="meta">Last updated: October 12, 2026</p>
-<p>This Privacy Policy explains how CKardinal LLC (&ldquo;CKardinal,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;) handles information in connection with this website, our business services and our software products, including mobile apps (together, the &ldquo;Services&rdquo;). Where a product has its own privacy notice, that notice also applies.</p>
+<p>This Privacy Policy explains how CKardinal Solutions, LLC (&ldquo;CKardinal,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;) handles information in connection with this website, our business services and our software products, including mobile apps (together, the &ldquo;Services&rdquo;). Where a product has its own privacy notice, that notice also applies.</p>
 <h2>Information we collect</h2>
 <ul><li><strong>Information you send us.</strong> If you email us, we receive your email address and whatever you choose to include.</li>
 <li><strong>Business information.</strong> If you work with us, we keep the contact and project details needed to do that work.</li>
@@ -92,7 +92,7 @@ privacy=f'''<div class="page"><div class="wrap prose">
 terms=f'''<div class="page"><div class="wrap prose">
 <span class="eyebrow">Legal</span><h1>Terms of Use</h1>
 <p class="meta">Last updated: October 12, 2026</p>
-<p>These Terms govern your use of this website and the software products of CKardinal LLC (&ldquo;CKardinal,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;). By using them, you agree to these Terms.</p>
+<p>These Terms govern your use of this website and the software products of CKardinal Solutions, LLC (&ldquo;CKardinal,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;). By using them, you agree to these Terms.</p>
 <h2>Use of the website</h2>
 <p>You may use this website for lawful purposes only. Content on this site is provided for general information.</p>
 <h2>Software products</h2>
@@ -100,11 +100,11 @@ terms=f'''<div class="page"><div class="wrap prose">
 <h2>Services engagements</h2>
 <p>Business or consulting work is governed by the separate agreement made for that engagement.</p>
 <h2>Intellectual property</h2>
-<p>The CKardinal name, this website and our products are owned by CKardinal LLC and protected by applicable law.</p>
+<p>The CKardinal name, this website and our products are owned by CKardinal Solutions, LLC and protected by applicable law.</p>
 <h2>Disclaimer</h2>
 <p>The website and products are provided &ldquo;as is&rdquo; without warranties of any kind, to the extent permitted by law.</p>
 <h2>Limitation of liability</h2>
-<p>To the extent permitted by law, CKardinal LLC is not liable for indirect, incidental or consequential damages arising from use of the website or products.</p>
+<p>To the extent permitted by law, CKardinal Solutions, LLC is not liable for indirect, incidental or consequential damages arising from use of the website or products.</p>
 <h2>Governing law</h2>
 <p>These Terms are governed by the laws of the State of Florida, without regard to its conflict-of-law rules.</p>
 <h2>Changes</h2>
@@ -112,9 +112,9 @@ terms=f'''<div class="page"><div class="wrap prose">
 <h2>Contact</h2>
 <p>Questions about these Terms: {EMAIL}</p>
 </div></div>'''
-P=[("index.html","CKardinal LLC","CKardinal LLC is a general-purpose business company offering business services, consulting and software.",home),
-("about.html","About | CKardinal LLC","About CKardinal LLC.",about),
-("contact.html","Contact | CKardinal LLC","Contact CKardinal LLC.",contact),
-("privacy.html","Privacy Policy | CKardinal LLC","Privacy Policy for CKardinal LLC.",privacy),
-("terms.html","Terms of Use | CKardinal LLC","Terms of Use for CKardinal LLC.",terms)]
+P=[("index.html","CKardinal Solutions, LLC","CKardinal Solutions, LLC is a general-purpose business company offering business services, consulting and software.",home),
+("about.html","About | CKardinal Solutions, LLC","About CKardinal Solutions, LLC.",about),
+("contact.html","Contact | CKardinal Solutions, LLC","Contact CKardinal Solutions, LLC.",contact),
+("privacy.html","Privacy Policy | CKardinal Solutions, LLC","Privacy Policy for CKardinal Solutions, LLC.",privacy),
+("terms.html","Terms of Use | CKardinal Solutions, LLC","Terms of Use for CKardinal Solutions, LLC.",terms)]
 for fn,t,d,m in P: open(fn,"w").write(page(fn,t,d,m))
